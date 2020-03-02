@@ -13,8 +13,9 @@ function addition() {
 function refresh() {
     console.log(`refresh function ran.`)
     $("#refresh").on("click", function() {
-        $("#number1").val() = 0;
-        $("#number2").val() = 0;
+        $("#number1").val("");
+        $("#number2").val("");
+        $("#answer").text("0");
     });
 }
 
