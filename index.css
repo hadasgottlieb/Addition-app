@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+#outer-container {
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* #inner-container {
+} */
+
+#inner-container input {
+    max-width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: none;
+    border: 2px solid rgb(209, 235, 252);
+    font-size: large;
+}
+
+.equation-text {
+    font-size: 26px;
+}
+
+#answer {
+    border: 2px solid rgb(209, 235, 252);    
+    width: 50px;
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button {
+    cursor: pointer;
+}
